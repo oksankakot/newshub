@@ -36,7 +36,7 @@ if not SECRET_KEY:
 DEBUG = os.environ.get("DJANGO_DEBUG", "") != "False"
 
 ALLOWED_HOSTS = ["127.0.0.1",
-                 "https://newshub-5w5g.onrender.com/",]
+                 "newshub-5w5g.onrender.com",]
 
 
 # Application definition
